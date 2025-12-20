@@ -1,0 +1,120 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 75vh;
+    background-color: skyblue;
+
+}
+
+
+.body{
+    background-color: white;
+    width: 350px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding-bottom: 20px;
+}
+
+
+.body .search{
+    display: flex;
+    width: 90%;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: rgb(230, 226, 226);
+    overflow: hidden;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+.body .search input{
+    flex: 1;
+    padding: 10px;
+    font-size: 22px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.body .search button{
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    border: none;
+    background: transparent;
+}
+
+.body .search button:hover{
+    background-color: #ffffff;
+}
+
+.body .weatherInfo{
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+.body .weatherInfo .cityName{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.body .weatherInfo .temp{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.body .other-info{
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding: 10px;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+
+.body .other-info > div {
+    flex: 1;                          /* KEY LINE */
+    text-align: center;              /* center text */
+}
+
+.body .other-info{
+    font-family: sans-serif;
+}
+
+.body .other-info span{
+    font-weight: bold;
+}
+
