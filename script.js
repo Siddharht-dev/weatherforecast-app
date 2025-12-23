@@ -7,6 +7,12 @@ let time = document.querySelector("#timeShow");
 let cloud = document.querySelector("#cloudShow");
 let speed = document.querySelector("#windShow");
 
+userInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+        btn.click();
+    }
+});
+
 btn.addEventListener("click", async () => {
     let key  = "6d4520aa91ed0dbc88a36be9ff1aae2b";
     let URL = "https://api.openweathermap.org/data/2.5/weather?q="

@@ -118,3 +118,31 @@ body{
     font-weight: bold;
 }
 
+
+@media (max-width: 600px) {
+    .body {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        margin: 40px auto;
+    }
+
+    .body .input {
+        flex-direction: row;
+    }
+
+    .body .input #location {
+        font-size: 16px;
+        height: 45px;
+    }
+
+    .body .input #btn {
+        width: 50px;
+        height: 45px;
+    }
+
+    .body .show img {
+        width: 90px;
+    }
+}
+
